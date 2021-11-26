@@ -1,0 +1,25 @@
+/* Generics */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+/* Utilities */
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+    flex-wrap: wrap;
+}
+
+.d-flex{
+    display: flex;
+}
