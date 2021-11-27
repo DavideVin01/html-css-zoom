@@ -12,10 +12,6 @@ body{
     background-color: #000;
 }
 
-.wrapper{
-    flex-wrap: wrap;
-}
-
 .d-flex{
     display: flex;
 }
@@ -69,9 +65,11 @@ body{
 
 .main-container{
     margin: 0 auto;
-    width: 1400px;
+    max-width: 1400px;
     min-height: 800px;
-    background-color: pink;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
 }
 
 .cards-row{
@@ -89,10 +87,10 @@ body{
 }
 
 .username-box{
-    background-color: rgba(27, 27, 27, 0.7);
+    background-color: rgba(27, 27, 27, 0.5);
     padding: 0px 5px;
     position: absolute;
-    bottom: 0px;
+    bottom: 2px;
     height: 20px;
     line-height: 15px;
 }
