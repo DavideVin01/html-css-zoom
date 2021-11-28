@@ -27,7 +27,7 @@
             </div>
         </nav>
 
-        <main class="main-container">
+        <main class="main-container d-flex">
             <div class="cards-row d-flex">
                 <div class="card">
                     <img class="profile-picture" src="https://picsum.photos/250/150" alt="Profile-picture">
@@ -292,12 +292,63 @@
                     </div>
                 </div>
             </div>
+        </main>
 
     </div>
-    </main>
 
     <footer>
-        <nav id="bottom-menu"></nav>
+        <nav id="bottom-menu" class="d-flex">
+            <div class="footer-columns d-flex">
+                <div class="icon-box d-flex">
+                    <div class="footer-icon"><i class="fas fa-microphone"></i></div>
+                    <span class="footer-text">Mute</span>
+                </div>
+                <div class="footer-arrow d-flex"><i class="fas fa-chevron-up"></i></div>
+                <div class="icon-box d-flex">
+                    <div class="footer-icon"><i class="fas fa-video"></i></div>
+                    <span class="footer-text">Stop Video</span>
+                </div>
+                <div class="footer-arrow d-flex"><i class="fas fa-chevron-up"></i></div>
+            </div>
+            <div class="footer-columns-center d-flex">
+                <div class="icon-box d-flex">
+                    <div class="footer-icon"><i class="fas fa-user-plus"></i></div>
+                    <span class="footer-text">Invite</span>
+                </div>
+                <div class="icon-box d-flex">
+                    <div class="footer-icon"><i class="fas fa-user-friends"></i></div>
+                    <span class="footer-text">Manage Participants</span>
+                </div>
+                <div class="icon-box d-flex">
+                    <div class="footer-icon"><i class="fas fa-share-square green-icon"></i></div>
+                    <span class="footer-text">Share Screen</span>
+                </div>
+                <div class="footer-arrow d-flex"><i class="fas fa-chevron-up"></i></div>
+                <div class="icon-box d-flex">
+                    <div class="footer-icon"><i class="fas fa-comment"></i></div>
+                    <span class="footer-text">Chat</span>
+                </div>
+                <div class="icon-box d-flex">
+                    <div class="footer-icon"><i class="fas fa-record-vinyl"></i></div>
+                    <span class="footer-text">Record</span>
+                </div>
+                <div class="icon-box d-flex">
+                    <div class="footer-icon"><i class="fas fa-th-large"></i></div>
+                    <span class="footer-text">Breakout Rooms</span>
+                </div>
+                <div class="icon-box d-flex">
+                    <div class="footer-icon"><i class="fas fa-ellipsis-h"></i></div>
+                    <span class="footer-text">More</span>
+                </div>
+            </div>
+            <div id="last-footer-column" class="footer-columns d-flex">
+                <div class="end-meeting-box d-flex">
+                    <div class="end-meeting">
+                        End Meeting
+                    </div>
+                </div>
+            </div>
+        </nav>
     </footer>
 </body>
 
