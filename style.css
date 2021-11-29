@@ -146,6 +146,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: color 1s;
+}
+
+.icon-box:hover{
+    color: rgb(174, 255, 174);
 }
 
 .footer-icon{
@@ -158,6 +163,11 @@ body{
     font-size: 9px;
     margin-right: 15px;
     margin-left: 0;
+    transition: color 1s;
+}
+
+.footer-arrow:hover{
+    color: rgb(174, 255, 174);
 }
 
 #last-footer-column{
@@ -167,11 +177,12 @@ body{
 
 .end-meeting-box{
     display: flex;
-    width: 100px;
     height: 100%;
+    padding: 0 20px;
     background-color: #4A4A4A;
     align-items: center;
     justify-content: center;
     color: #f00;
     font-weight: bold;
+    align-self: stretch;
 }
