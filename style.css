@@ -69,13 +69,13 @@ body{
 
 .main-container{
     flex-direction: column;
-    margin: 30px auto;
+    margin: 0px auto;
     max-width: 1400px;
-    /* flex-basis: 800px; */
     flex-grow: 1;
     flex-shrink: 1;
     justify-content: center;
-    overflow-y: auto;
+    height: calc(100vh - 130px);
+    overflow: auto;
 }
 
 .card{
@@ -117,6 +117,7 @@ body{
     color: #fff;
     font-size: 12px;
     padding-left: 5px;
+    /* flex-shrink: 0; */
 }
 
 #bottom-menu .footer-columns{
