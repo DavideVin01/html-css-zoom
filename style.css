@@ -70,10 +70,10 @@ body{
 .main-container{
     flex-direction: column;
     margin: 0px auto;
-    max-width: 1400px;
     flex-grow: 1;
     flex-shrink: 1;
     justify-content: center;
+    align-items: center;
     height: calc(100vh - 130px);
     overflow: auto;
 }
